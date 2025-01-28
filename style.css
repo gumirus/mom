@@ -9,11 +9,20 @@ body {
 
 h1 {
   color: rgb(7, 89, 253);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 
 p {
   color: rgb(56, 59, 113);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 20px;
+  padding-left: 20px;
+}
+
+img {
+  border-radius: 3%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
 }
 
 button {
@@ -22,8 +31,17 @@ button {
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #142f6d;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
   font-size: 20px;
   color: #ffffff;
   margin: 0 auto;
   width: 50%;
+  cursor: pointer;
+  border: none; 
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+button:hover {
+  background-color: #0b1d4b;
+  transform: scale(1.05);
 }
