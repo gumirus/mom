@@ -37,11 +37,27 @@ button {
   margin: 0 auto;
   width: 50%;
   cursor: pointer;
-  border: none; 
-  transition: background-color 0.3s, transform 0.2s; 
+  border: none;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
   background-color: #0b1d4b;
   transform: scale(1.05);
+}
+
+.output {
+  color: rgb(56, 59, 113);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  margin-top: 5%;
+  padding-left: 7%;
+}
+
+.output2 {
+  color: rgb(56, 59, 113);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  margin-top: 5%;
+  padding-left: 7%;
 }
